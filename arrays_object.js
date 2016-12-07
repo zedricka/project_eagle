@@ -23,3 +23,23 @@ var donut = {
   shape : "square",
   count : 12
 }
+
+//Array Function
+
+function amazing (wow) {
+  console.log (numbers[0] + numbers[1])
+}
+amazing (numbers)
+
+//For Loop
+
+function lol (rofl) {
+  if (rofl == "chocolate frosting") {
+    console.log ("There are " + donut.toppings[1] + " on my donut.");
+  }
+  else {
+    console.log ("There are " + donut.topping[0] + " on my donut.")
+  }
+}
+
+lol (donut.toppings[1])
